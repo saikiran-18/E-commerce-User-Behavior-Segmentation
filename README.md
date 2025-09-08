@@ -2,7 +2,8 @@
 ****E-commerce Customer Segmentation with Hierarchical Clustering***
 This repository documents a data science project on the application of unsupervised machine learning to segment the customer base of an e-commerce enterprise. The project utilizes the Online Retail Dataset (UCI) to identify distinct customer groups based on their purchasing behavior.
 
-* Table of Contents
+* Table of Contents*
+  
 1 Project Overview
 
 2 Methodology
