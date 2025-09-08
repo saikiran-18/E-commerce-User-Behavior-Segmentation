@@ -22,7 +22,7 @@ The primary objective of this project is to apply Hierarchical Clustering to a t
 2. Methodology:
 The project employs a structured three-phase approach:
 
-i.Data Preparation: This phase involves the preprocessing and cleaning of raw transactional data. A central component is RFM (Recency, Frequency, Monetary) analysis, which transforms the raw data into three key customer features:
+i. Data Preparation: This phase involves the preprocessing and cleaning of raw transactional data. A central component is RFM (Recency, Frequency, Monetary) analysis, which transforms the raw data into three key customer features:
 
 *Recency: The duration in days since a customer's last purchase.
 
@@ -30,9 +30,9 @@ i.Data Preparation: This phase involves the preprocessing and cleaning of raw tr
 
 *Monetary: The cumulative monetary value of all purchases.
 
-ii.Model Application: The AgglomerativeClustering algorithm from scikit-learn is applied to the scaled RFM data. A dendrogram is utilized to visually inform the selection of an optimal number of clusters prior to model execution.
+ii. Model Application: The AgglomerativeClustering algorithm from scikit-learn is applied to the scaled RFM data. A dendrogram is utilized to visually inform the selection of an optimal number of clusters prior to model execution.
 
-iii.Analysis & Visualization: The final clusters are profiled by computing their average RFM metrics to ascertain the characteristics of each segment. The results are then visualized using 2D pair plots and a 3D scatter plot to illustrate the distinct separation of the clusters.
+iii. Analysis & Visualization: The final clusters are profiled by computing their average RFM metrics to ascertain the characteristics of each segment. The results are then visualized using 2D pair plots and a 3D scatter plot to illustrate the distinct separation of the clusters.
 
 3. Dataset:
 This project utilizes the Online Retail Dataset from the UCI Machine Learning Repository, a transactional record of purchases from a UK-based online retailer over a two-year period.
